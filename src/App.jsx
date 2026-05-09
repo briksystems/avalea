@@ -4,7 +4,8 @@ const useApp = () => useContext(AppContext);
 
 const WHATSAPP = "573212412532";
 
-const I={logo:"/img/logo.png",hero_bg:"/img/hero_bg.jpg",hero_video:"/img/hero_video.mp4",mini:"/img/mini.jpg",niebla:"/img/niebla.jpg",cacao:"/img/cacao.jpg",noches:"/img/noches.jpg",pal_sm:"/img/pal_sm.jpg",pal_md:"/img/pal_md.jpg",pal_lg:"/img/pal_lg.jpg",sl1:"/img/sl1.jpg",sl2:"/img/sl2.jpg",sl3:"/img/sl3.jpg",sl4:"/img/sl4.jpg",st1:"/img/st1.jpg",st2:"/img/st2.jpg",st3:"/img/st3.jpg",st4:"/img/st4.jpg",st5:"/img/st5.jpg",st6:"/img/st6.jpg"};
+const BASE=import.meta.env.BASE_URL;
+const I={logo:`${BASE}img/logo.png`,hero_bg:`${BASE}img/hero_bg.jpg`,hero_video:`${BASE}img/hero_video.mp4`,mini:`${BASE}img/mini.jpg`,niebla:`${BASE}img/niebla.jpg`,cacao:`${BASE}img/cacao.jpg`,noches:`${BASE}img/noches.jpg`,pal_sm:`${BASE}img/pal_sm.jpg`,pal_md:`${BASE}img/pal_md.jpg`,pal_lg:`${BASE}img/pal_lg.jpg`,sl1:`${BASE}img/sl1.jpg`,sl2:`${BASE}img/sl2.jpg`,sl3:`${BASE}img/sl3.jpg`,sl4:`${BASE}img/sl4.jpg`,st1:`${BASE}img/st1.jpg`,st2:`${BASE}img/st2.jpg`,st3:`${BASE}img/st3.jpg`,st4:`${BASE}img/st4.jpg`,st5:`${BASE}img/st5.jpg`,st6:`${BASE}img/st6.jpg`};
 const PH={niebla:{xs:I.mini,sm:I.niebla,md:I.niebla,lg:I.niebla},palenquera:{xs:I.mini,sm:I.pal_sm,md:I.pal_md,lg:I.pal_lg},cacao:{xs:I.mini,sm:I.cacao,md:I.cacao,lg:I.cacao},noches:{xs:I.mini,sm:I.noches,md:I.noches,lg:I.noches}};
 // Catalog cards: only the large/main photo
 const CA={niebla:I.niebla,palenquera:I.pal_lg,cacao:I.cacao,noches:I.noches};
