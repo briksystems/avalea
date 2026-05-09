@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(pkill -f \"vite\")",
+      "Bash(unzip -o \"/Users/ricardorodriguez/Desktop/files.zip\" -d \"/tmp/avalea-unzip/\")",
+      "Bash(unzip -o \"/tmp/avalea-unzip/avalea-img.zip\" -d \"/tmp/avalea-img/\")",
+      "Bash(rm -rf /tmp/avalea-new)",
+      "Bash(mkdir /tmp/avalea-new)",
+      "Bash(unzip -o \"/Users/ricardorodriguez/Desktop/files.zip\" -d /tmp/avalea-new/)"
+    ]
+  }
+}
