@@ -151,7 +151,7 @@ const hero = () => `
         <a class="btn bot" href="#/historia">Nuestra historia</a>
       </div>
     </div>
-    <div class="hr"><img src="${IMG("logo.png")}" alt=""><div class="hr-b">C O L O M B I A</div><div class="hr-e">N.º 01 · IV Piezas</div></div>
+    <div class="hr"><img src="${IMG("logo-avalea.png")}" alt=""><div class="hr-b">C O L O M B I A</div><div class="hr-e">N.º 01 · IV Piezas</div></div>
   </div>
   <div class="scr"><div></div><span>Explorar</span></div>
 </section>`;
